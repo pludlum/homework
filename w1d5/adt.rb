@@ -55,7 +55,7 @@ class Map
   end
 
   def remove(key)
-    @maps.delete(lookup(key))
+    @map.delete(lookup(key))
     nil
   end
 
